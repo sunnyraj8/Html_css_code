@@ -1,0 +1,30 @@
+#ab{
+    height: 100px;
+    width: 100px;
+    background-color:pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+#abc{
+    height: 100px;
+    width: 100px;
+    background-color:pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+#abcd{
+    height: 100px;
+    width: 100px;
+    background-color:pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+li{
+    display: inline-block;
+}

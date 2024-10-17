@@ -1,0 +1,51 @@
+.box{
+    height: 300px;
+    width: 500px;
+    
+   /* animation-name: widthAnime;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: myNAme 3s ease-in 0s infinite normal;
+
+}    
+    @keyframes fontAnimation {
+        from{
+            font-size: 150px;
+        }
+        to {
+            font: size 50px;
+        }
+        
+    }
+    @keyframes colorAnime {
+        from{
+            background-color: yellow;
+        }
+        to {
+            background-color: red;
+        }
+        
+    }
+
+    @keyframes widthAnime{
+
+        from {width: 10px;
+            background-color: green;
+
+        }
+
+        to {
+            width: 400px;
+            background-color: blue;
+            border-radius: 50%;
+        }    
+        
+    }
+    @keyframes myNAme{
+        0%{font-size:  20px;}
+        50%{font-size: 30px;}
+        100%{font-size: 40px;}
+    }

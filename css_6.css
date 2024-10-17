@@ -1,0 +1,17 @@
+#container{
+    background-color: rgb(159, 186, 233);
+    height: 400px;
+    width:  600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2px;
+    place-items: center;
+}
+#inner{
+    height: 80px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: palevioletred;
+    text-align: center;
+    font-weight: 700;
+}

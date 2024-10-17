@@ -1,0 +1,22 @@
+
+*{
+    text-align: center;
+}
+.raj{
+    font-family: Georgia;
+}
+
+button:hover{
+    color: blue;
+    background-color: yellow;
+}
+p:nth-of-type(2n+1){
+    color: yellow;
+}
+
+h1::first-letter{
+    color: red;
+}
+#yes:checked+label{
+    color: darkgreen;   
+   }

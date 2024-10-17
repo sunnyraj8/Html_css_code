@@ -1,0 +1,61 @@
+section{
+    margin-top: 100px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #FFF3C7;
+    border: 2px solid black;
+    margin: 10px;
+}
+div:nth-of-type(2n){
+    background-color: #6196A6;
+}
+div:nth-of-type(3n){
+    background-color: #FC819E;
+}
+#one{
+    transform: rotate(45deg);
+}
+#two{
+    transform: scale(0.75,1.2);
+}
+#three{
+    transform: translate(100px,50px);
+}
+#four{
+    transform: skew(45deg);
+}
+#five{
+    transform: rotate(90deg) skew(20deg) translate(50px,50px);
+}
+
+#six{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    box-shadow: 2px 2px 8px yellow ;
+}
+
+#seven{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(15, 78, 196);
+    margin: 10px auto;
+    background-image: url("back.jpg");
+    background-size:contain;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 20px;
+}
+
+img{
+    width:100%;
+}
